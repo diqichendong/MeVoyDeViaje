@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Me voy de Viaje</string>
+    <string name="lblDestino">Destino:</string>
+    <string name="radBarcelona">Barcelona</string>
+    <string name="radMadrid">Madrid</string>
+    <string name="radIbiza">Ibiza</string>
+    <string name="lblTransporte">Transporte:</string>
+    <string name="radCoche">Coche</string>
+    <string name="radAvion">Avión</string>
+    <string name="radBarco">Barco</string>
+    <string name="btnInformacion">INFORMACIÓN</string>
+</resources>

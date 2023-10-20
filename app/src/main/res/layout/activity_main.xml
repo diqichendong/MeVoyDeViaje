@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblDestino"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radGrp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:checkedButton="@id/radBarcelona">
+
+        <RadioButton
+            android:id="@+id/radBarcelona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radBarcelona"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radMadrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radMadrid"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radIbiza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radIbiza"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/lblTransporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTransporte"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radGrp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:checkedButton="@id/radCoche">
+
+        <RadioButton
+            android:id="@+id/radCoche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radCoche"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radAvion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radAvion"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radBarco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radBarco"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnInformacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="informacion"
+        android:text="@string/btnInformacion"
+        android:textSize="24dp" />
+</LinearLayout>
